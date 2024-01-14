@@ -31,13 +31,13 @@ body{
 }
 
 #number{
-    height: 50px;
-    font-size: 32px;
+    height: 70px;
+    font-size: 52px;
     font-weight: 600;
     color: lightgreen;
-    margin-top: 20px;
+    margin-top: 30px;
     padding: 15px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-    line-height: 20px;
+    line-height: 40px;
 
 }
