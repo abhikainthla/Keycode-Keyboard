@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px
+}
+
+#code{
+    width: 50%;
+    height: 50px;
+    background-color: #fcfcfc;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #7d7d7d;
+}
+
+#number{
+    height: 50px;
+    font-size: 32px;
+    font-weight: 600;
+    color: lightgreen;
+    margin-top: 20px;
+    padding: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    line-height: 20px;
+
+}
